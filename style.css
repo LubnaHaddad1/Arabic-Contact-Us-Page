@@ -1,0 +1,390 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+
+header {
+    background-image: url('images/head.png');
+    background-size: cover;
+    min-height: 300px;
+    padding: 30px 0;
+    width: 100%;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+#headlogo img {
+    width: 75px;
+}
+
+
+.headerMenu{
+    display: flex;
+}
+
+
+.headerMenu li a {
+    padding: 0 20px;
+    font-family: 'Noto Sans Arabic';
+    font-size: 14px;
+    color: white;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerIcons {
+    display: flex;
+}
+
+
+.headerIcons li a {
+    padding: 0 15px;
+}
+
+
+
+footer {
+    background-image: url(images/footer.jpeg);
+    background-size: cover;
+    display: flex;
+    min-height: 300px;
+    padding: 30px 0;
+    min-width: none;
+}
+
+
+.footlogo img {
+    width: 72px;
+}
+
+
+.def p {
+    color: white;
+    font-family: 'Noto Sans Arabic';
+    padding-bottom: 30px;
+}
+
+
+.font {
+   font-family: 'Amiri', serif;
+}
+
+
+.title {
+    color: white;
+    font-family: 'Noto Sans Arabic';
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 30px;
+}
+
+
+.contactList li a {
+    color: white;
+    font-family: 'Noto Sans Arabic';
+    font-size: 13px;
+}
+
+
+.footerIcons {
+    display: flex;
+    align-items: flex-end; 
+    padding: 0;
+}
+
+
+.footerIcons li a {
+    padding: 0 15px;
+}
+
+
+.end {
+    color: white;
+    font-family: 'Noto Sans Arabic';
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.headingTitle {
+    text-align: center;
+}
+
+
+.headingTitle h1 {
+    color: white;
+    font-family: 'Noto Sans Arabic';
+    padding-top: 20px;
+    font-size: 55px;
+    margin: 0;
+}
+
+
+.subTitle {
+    text-align: center;
+}
+
+
+.subTitle p {
+    color: white;
+    font-family: 'Noto Sans Arabic';
+    font-size: 13px;
+    margin: 0;
+    padding-top: 0;
+}
+
+
+.styling {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.stylingMain {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 16px;
+}
+
+
+#body {
+    padding-top: 40px;
+}
+
+
+.info {
+    padding: 30px;
+    box-shadow: 0px 0px 7px 0px gainsboro;
+    border-radius: 7px;
+    display: flex;
+}
+
+
+.emoji {
+    display: flex;
+    align-items: center;
+}
+ 
+
+ .emoji img {
+    width: 40px;
+}
+ 
+
+ .details {
+   padding-right: 20px;
+}
+
+ 
+ .details p {
+    color: grey;
+    font-size: 16px;
+    font-family: 'Noto Sans Arabic';
+}
+
+ 
+ .picture {
+    padding-top: 30px;
+}
+
+
+ .picture img {
+    width: 100%;
+}
+
+
+ .map {
+    position: relative;
+    padding-top: 50px;
+}
+
+
+.map img {
+    width: 100%;
+}
+
+
+.arrow {
+    position: absolute;
+    bottom: 46.2%;
+    right: 51.9%;
+}
+
+
+.arrow img {
+    width: 50px;
+}
+
+
+.logo {
+   position: absolute;
+   bottom: 49%;
+   right: 52.2%;
+}
+
+
+.logo img {
+    width: 42px;
+}
+
+
+.form_input {
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Noto Sans Arabic';
+    color: black;
+}
+
+
+input {
+    border-radius: 7px;
+    border-color: gray;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#message {
+    color: black;
+    font-size: 15px;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Noto Sans Arabic';
+}
+
+textarea {
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+
+/*
+.message {
+    color: black;
+    font-size: 15px;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Noto Sans Arabic';
+}
+*/
+
+/*
+.submit {
+    padding: 10px;
+    color: white;
+    font-family: 'Noto Sans Arabic';
+    font-size: 15px;
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+*/
+
+.roww {
+    display: flex;
+}
+
+
+.element1 {
+    width: 100%;
+    margin-left: 20px;
+}
+
+
+.element2 {
+    width: 100%;
+}
+
+
+::placeholder { 
+    color: gainsboro;
+}
+
+.error {
+    color: red;
+    display: block;
+}
+
+
+
+
+/*
+#dialogoverlay {
+    display: none;
+    opacity: 0.8;
+    position: fixed;
+    background: #FFF;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+#dialogbox {
+   display: none;
+   position: fixed;
+   background: purple;
+   width: 550px;
+   border-radius: 7px;
+   z-index: 10;
+}
+
+
+#dialogbox > div {
+    background: #FFF;
+    margin: 8px;
+}
+ 
+
+#dialogbox > div > #dialogboxhead {
+    background: #FFF;
+    font-size: 19px;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    font-family: 'Noto Sans Arabic';
+    border-bottom: 1px solid plum;
+}
+
+
+#dialogbox > div > #dialogboxbody {
+    background: #FFF; 
+    padding: 20px;
+    color: #000;
+    text-align: center;
+    font-family: 'Noto Sans Arabic';
+}
+
+
+#dialogbox > div > #dialogboxfoot {
+    background: #FFF;
+    padding: 15px;
+    text-align: right;
+}
+
+*/

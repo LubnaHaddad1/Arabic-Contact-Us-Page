@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <head>
+        <link href="grids.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script> 
+        <!-- Confirm -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+        <script src="myQuery.js"></script>
+
+       <link href='https://fonts.googleapis.com/css?family=Noto Sans Arabic' rel='stylesheet'>
+      <title>Contact Us</title>
+    </head>
+  
+
+    <body>
+
+        <header>
+          <div class="container">
+            <div class="header">
+                   <div id="headlogo">
+                     <a href="#main"><img src="images/log.png"></a>
+                   </div>  
+                
+                    <ul class="headerMenu">
+                      <li><a href="#الرئيسية">الرئيسية</a></li>
+                      <li><a href="#عن_التطبيق">عن التطبيق</a></li>
+                      <li><a href="#االخدمات">الخدمات</a></li>
+                      <li><a href="#المحفظة_الذكية">المحفظة الذكية</a></li>
+                      <li><a href="#مدونة">مدونة</a></li>
+                      <li><a href="#انضم_الينا">انضم إلينا</a></li>
+                      <li><a href="#تواصل_معنا">تواصل معنا</a></li>
+                    </ul>
+
+                    <div class="icons">
+                      <ul class="headerIcons">
+                        <li><a href="#facebook"><img src="images/facebook.png"></a></li>
+                        <li><a href="#twitter"><img src="images/twitter.png"></a></li>
+                        <li><a href="#gplus"><img src="images/gplus.png"></a></li>
+                      </ul>
+                    </div>
+            </div>
+
+            <div class="headingTitle">
+              <h1>تواصل معنا</h1>
+            </div>
+            <div class="subTitle">
+              <p>الرئيسية / تواصل معنا</p>
+            </div>
+
+          </div>
+        </header>
+
+       <div id="body">
+         <div class="container">
+
+           <div class="row">
+
+             <div class="col-4">
+              <div class="info">
+
+                <div class="emoji">
+                  <img src="images/phone.jpeg">
+                </div>
+
+                <div class="details">
+                  <p style="margin-bottom:0;">رقم الجوال</p>
+                  <p style= "font-family:'Noto Sans Arabic'; font-size: 15px; color:black; margin: 0; padding-top: 0;">
+                    +972534278668</style></p>
+                </div>
+
+              </div>
+           </div>
+
+           <div class="col-4">
+            <div class="info">
+
+                 <div class="emoji">
+                   <img src="images/loca.png">
+                  </div>
+
+                 <div class="details">
+                   <p style="margin-bottom:0;">العنوان</p>
+                   <p style= "font-family:'Noto Sans Arabic'; font-size: 15px; color:black; margin: 0; padding-top: 0;">
+                    الموقع بالكامل</style></p>
+                 </div>
+
+            </div>
+           </div>
+
+           <div class="col-4">
+            <div class="info">
+                   <div class="emoji">
+                      <img src="images/mail.png">
+                   </div>
+                  <div class="details">
+                      <p style="margin-bottom:0;">البريد الإلكتروني</p>
+                      <p style= "font-family:'Amiri', serif; font-size: 18px; color:black; margin: 0; padding-top: 0;">
+                      info@maalchat.com</style></p>
+                  </div>
+                   
+           </div>
+         </div>
+
+         </div>
+     
+    <!--
+    <div id="dialogoverlay"></div>
+    <div id="dialogbox">
+        <div>
+          <div id="dialogboxhead"></div>
+          <div id="dialogboxbody"></div>
+          <div id="dialogboxfoot"></div>
+        </div>
+    </div>
+  -->
+        <div class="row">
+          <div class="col-6">
+            <div>
+              <p style="font-family: 'Noto Sans Arabic'; font-size: 25px; color:blueviolet; padding-top: 30px;">
+                تواصل مع دعمنا
+              </p>
+            </div>
+          
+            <div>
+             <form id="Myform" action="" method="post" novalidate>
+               <div class="roww">
+                  <div class="element1">
+                    <input type="text" class="form_input" id="fname" name="fname" placeholder="الاسم الأول *"
+                     autocomplete="off" required>
+                    <span id="fname-error" class="error"></span>
+                  </div> 
+                  <div class="element2">
+                    <input type="text" class="form_input" id="lname" name="lname" placeholder="الاسم الثاني *"
+                     autocomplete="off" required>
+                    <span id="lname-error" style="color: red;"></span>
+                  </div>
+               </div>
+               <div class="roww">
+                 <div class="element1">
+                   <input type="text" class="form_input" id="phone" name="phone" placeholder="الهاتف المحمول *"
+                   autocomplete="off" required>
+                   <span id="phone-error" class="error"></span>
+                 </div>
+                 <div class="element2">
+                   <input type="text" class="form_input" id="mail" name="mail" placeholder=" البريد الإلكتروني *"
+                    autocomplete="off" required>
+                   <span id="mail-error" class="error"></span>
+                 </div>
+               </div>
+
+               <textarea id="message" name="message" placeholder="الرسالة *" required></textarea>
+               <span id="msg-error" class="error"></span>
+
+               <button type="submit" id="submit" name="submit" style="color: white; background-color: blueviolet;
+               font-family: 'Noto Sans Arabic'; width: 100%; padding: 10px; border-radius: 7px;
+               font-size: 15px; border: none;">إرسال</button>
+
+             </form>
+             
+            </div>
+          </div>
+      
+          <div class="col-6">
+            <div class="picture">
+              <img src="images/pic.PNG">
+            </div>
+          </div>
+
+        </div>
+       </div> 
+      </div> 
+
+      <div class="map">
+        <img src="images/map.jpeg">
+        <div class="arrow">
+          <img src="images/loctrans.png">
+         </div>
+        <div class="logo">
+           <img src="images/logotrans.png">
+        </div>
+  
+      </div>
+
+      
+     <!-- <script src="myScript.js"></script> -->
+    </body>  
+
+
+    <footer>
+        <div class="container">
+          <div class="row">
+           <div class="col-4">
+                <div class="footlogo">
+                   <img src="images/log.png">
+                </div> 
+           </div> 
+
+            <div class="col-3">
+               <div class="title">
+                  <p>تواصل معنا</p>
+               </div>
+            </div>
+             
+            <div class="col-3">
+                <div class="title">
+                  <p>القائمة الرئيسية</p>
+                </div>
+            </div>
+
+            <div class="col-2">
+              <div class="title">
+                <p>تحميل التطبيق</p>
+              </div>  
+            </div>
+
+          </div>  
+
+          <div class="row">
+            <div class="col-4">
+              <div class="def">
+                <p>منصة رقمية للتواصل تمكنك من التسوق، التفاوض والشراء، التحويل والدفع الفوري من خلال محفظة ذكية على هاتفك</p>
+              </div>
+                <ul class="footerIcons">
+                  <li><a href="facebook"><img src="images/facebook.png"></a></li>
+                  <li><a href="twitter"><img src="images/twitter.png"></a></li>
+                  <li><a href="gplus"><img src="images/gplus.png"></a></li>
+                </ul>
+              
+            </div>
+
+            <div class="col-3">
+              <div class="styling">
+                <ul class="contactList">
+                 <li><a href="#address">العنوان</a></li>
+                 <li><a href="#email"><span class="font">info@maalchat.com<span></a></li>
+                 <li><a href="#phone">+972534287668</a></li>
+                </ul>
+              </div>
+            </div>
+           
+            <div class="col-3">
+              <div class="stylingMain">
+                <ul class="contactList">
+                  <li ><a href="#عن_التطبيق">عن التطبيق</a></li>
+                  <li ><a href="#االخدمات">الخدمات</a></li>
+                  <li ><a href="#المحفظة_الذكية">المحفظة الذكية</a></li>
+                  <li ><a href="#تواصل_معنا">تواصل معنا</a></li>
+                  <li ><a href="#تعليمات_الاستخدام">تعليمات الاستخدام</a></li>
+                  <li ><a href="#سياسة_خاصة">سياسة خاصة</a></li>
+                </ul> 
+              </div>  
+            </div>
+
+            <div class="col-2">
+             <div class="styling">
+                <ul>
+                   <li><a href="#googleplay"><img src="images/googleplay.PNG"></a></li>
+                   <li><a href="#appstore"><img src="images/appstore.PNG"></a></li>
+                </ul>  
+              </div>  
+            </div>
+
+          </div>
+
+          <div class="row" style="border-top: 1px solid plum">
+            <div class="col-12">
+              <div class="end">
+                جميع الحقوق محفوظة <span class="font">maalchat 2020</span>
+             </div>
+            </div>    
+          </div>
+
+        </div>
+    </footer>
+</html>
