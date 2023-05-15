@@ -279,31 +279,6 @@ textarea {
     margin-bottom: 5px;
 }
 
-/*
-.message {
-    color: black;
-    font-size: 15px;
-    height: 100px;
-    width: 100%;
-    padding: 10px;
-    font-family: 'Noto Sans Arabic';
-}
-*/
-
-/*
-.submit {
-    padding: 10px;
-    color: white;
-    font-family: 'Noto Sans Arabic';
-    font-size: 15px;
-    background-color: blueviolet;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-*/
-
 .roww {
     display: flex;
 }
@@ -329,62 +304,3 @@ textarea {
     display: block;
 }
 
-
-
-
-/*
-#dialogoverlay {
-    display: none;
-    opacity: 0.8;
-    position: fixed;
-    background: #FFF;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-}
-
-
-#dialogbox {
-   display: none;
-   position: fixed;
-   background: purple;
-   width: 550px;
-   border-radius: 7px;
-   z-index: 10;
-}
-
-
-#dialogbox > div {
-    background: #FFF;
-    margin: 8px;
-}
- 
-
-#dialogbox > div > #dialogboxhead {
-    background: #FFF;
-    font-size: 19px;
-    padding: 10px;
-    color: #000;
-    text-align: center;
-    font-family: 'Noto Sans Arabic';
-    border-bottom: 1px solid plum;
-}
-
-
-#dialogbox > div > #dialogboxbody {
-    background: #FFF; 
-    padding: 20px;
-    color: #000;
-    text-align: center;
-    font-family: 'Noto Sans Arabic';
-}
-
-
-#dialogbox > div > #dialogboxfoot {
-    background: #FFF;
-    padding: 15px;
-    text-align: right;
-}
-
-*/
